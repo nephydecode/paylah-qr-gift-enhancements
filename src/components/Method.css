@@ -1,42 +1,62 @@
 .method-item {
-  background: #fd3866;
-  box-shadow: 1px 8px 14px 0 rgba(30, 30, 30, 0.19);
-  border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 8px 14px 0 rgba(30, 30, 30, 0.19);
+    border-radius: 10px;
+}
+
+.method-item .highlighted {
+    background: #fd3866;
+}
+
+.method-app-icon {
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    max-width: 7em;
+    height: 100%;
+    max-height: 7em;
 }
 
 .text1 {
-  font-family: HelveticaNeue-Medium;
-  font-size: 23px;
-  color: #ffffff;
-  letter-spacing: 0.09px;
+    font-weight: 600;
+    font-size: 23px;
+    letter-spacing: 0.09px;
+}
+
+.highlighted > .text1 {
+    color: #ffffff;
+}
+.highlighted > .text2 {
+    color: #ffffff;
 }
 
 .text2 {
-  opacity: 0.9;
-  font-family: HelveticaNeue;
-  font-size: 13px;
-  color: #ffffff;
-  letter-spacing: 0.05px;
+    opacity: 0.9;
+    font-family: HelveticaNeue;
+    font-size: 13px;
+    letter-spacing: 0.05px;
+}
+
+.highlighted > .button3 {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .button3 {
-  background: #ffffff;
-  border-radius: 12.5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  size: "auto";
+    background: #ffffff;
+    border-radius: 12.5px;
+    size: 'auto';
 }
 
 .arrow {
-  font-family: Seravek-Bold;
-  font-size: 13px;
-  color: #fa5a74;
-  letter-spacing: 0.05px;
+    font-family: Seravek-Bold;
+    font-size: 13px;
+    color: #fa5a74;
+    letter-spacing: 0.05px;
 }
 
 .text3 {
-  font-family: OpenSans-SemiBold;
-  font-size: 13px;
-  color: #fa5a74;
-  letter-spacing: 0.05px;
+    font-family: OpenSans-SemiBold;
+    font-size: 13px;
+    color: #fa5a74;
+    letter-spacing: 0.05px;
 }
