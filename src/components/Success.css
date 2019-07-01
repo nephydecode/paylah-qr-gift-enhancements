@@ -1,0 +1,23 @@
+.header {
+  font-family: OpenSans-Bold;
+  font-size: 18px;
+  color: #2e2e2e;
+  letter-spacing: 0.54px;
+  text-align: center;
+}
+
+.text {
+  font-family: Roboto-Regular;
+  font-size: 13px;
+  color: #6d6d6d;
+  letter-spacing: 0.24px;
+  text-align: center;
+}
+
+.dbslink {
+  font-family: Roboto-Bold;
+  font-size: 13px;
+  color: #fd3866;
+  letter-spacing: 0.24px;
+  text-align: center;
+}
