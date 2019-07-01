@@ -1,0 +1,42 @@
+.method-item {
+  background: #fd3866;
+  box-shadow: 1px 8px 14px 0 rgba(30, 30, 30, 0.19);
+  border-radius: 10px;
+}
+
+.text1 {
+  font-family: HelveticaNeue-Medium;
+  font-size: 23px;
+  color: #ffffff;
+  letter-spacing: 0.09px;
+}
+
+.text2 {
+  opacity: 0.9;
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  color: #ffffff;
+  letter-spacing: 0.05px;
+}
+
+.button3 {
+  background: #ffffff;
+  border-radius: 12.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  size: "auto";
+}
+
+.arrow {
+  font-family: Seravek-Bold;
+  font-size: 13px;
+  color: #fa5a74;
+  letter-spacing: 0.05px;
+}
+
+.text3 {
+  font-family: OpenSans-SemiBold;
+  font-size: 13px;
+  color: #fa5a74;
+  letter-spacing: 0.05px;
+}
