@@ -7,9 +7,9 @@ class Redemptions extends Component {
     render() {
         return (
             <Container className={'p-4'}>
-                <Method highlighted />
-                <Method />
-                <Method />
+                <Method highlighted link={'/dey'} title={'DBS PayLah!'} helperText={'Redeem your QR Gift with DBS PayLah! App'} actionText={'Download PayLah!'} />
+                <Method link={'/dey'} title={'DBS PayLah!'} helperText={'Redeem your QR Gift with DBS PayLah! App'} actionText={'Download PayLah!'} />
+                <Method link={'/dey'} title={'DBS PayLah!'} helperText={'Redeem your QR Gift with DBS PayLah! App'} actionText={'Download PayLah!'}/>
             </Container>
         );
     }

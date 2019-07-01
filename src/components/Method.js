@@ -12,8 +12,11 @@ class Method extends Component {
     state = {};
     render() {
         return (
-            <div>
-                <Container className={classnames('mb-3 pt-3 pb-3', 'method-item', 'highlighted')}>
+            <div className={'method-container-item'}>
+                <a href={this.props.link}>
+                <Container
+                    className={classnames('mb-3 pt-3 pb-3', 'method-item', this.props.highlighted ? 'highlighted' : '')}
+                >
                     <Row>
                         <Col
                             xs={3}
@@ -31,18 +34,18 @@ class Method extends Component {
                             <Container>
                                 <Row>
                                     <Col style={{ textAlign: 'left' }} className="text1">
-                                        DBS PayLah!
+                                        {this.props.title}
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col style={{ textAlign: 'left' }} className="text2">
-                                        Redeem your QR Gift with DBS PayLah! App.
+                                        {this.props.helperText}
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Row className="button3 m-3 auto">
                                         <Col style={{ textAlign: 'left' }} className="text3 col-auto p-1">
-                                            Download PayLah!
+                                            {this.props.actionText}
                                         </Col>
                                         <Col className="arrow col-auto p-1" style={{ lineHeight: 1.6 }}>
                                             &rarr;
@@ -53,6 +56,8 @@ class Method extends Component {
                         </Col>
                     </Row>
                 </Container>
+
+                </a>
             </div>
         );
     }
