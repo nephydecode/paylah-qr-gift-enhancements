@@ -4,7 +4,8 @@
     border-radius: 10px;
 }
 
-.method-item .highlighted {
+.method-item,
+.highlighted {
     background: #fd3866;
 }
 
@@ -22,10 +23,10 @@
     letter-spacing: 0.09px;
 }
 
-.highlighted > .text1 {
+.method-item .highlighted > .text1 {
     color: #ffffff;
 }
-.highlighted > .text2 {
+.method-item .highlighted > .text2 {
     color: #ffffff;
 }
 
