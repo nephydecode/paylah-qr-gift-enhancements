@@ -1,82 +1,82 @@
 .serialno {
-    font-family: Helvetica;
-    font-size: 16.2px;
-    letter-spacing: -0.39px;
-    text-align: center;
-    opacity: 0.5;
-    background: #3e3e3e;
-    border-radius: 18.23px;
-    display: inline-block;
-    padding: 3px 10px;
+  font-family: Helvetica;
+  font-size: 16.2px;
+  letter-spacing: -0.39px;
+  text-align: center;
+  opacity: 0.5;
+  background: #3e3e3e;
+  border-radius: 18.23px;
+  display: inline-block;
+  padding: 3px 10px;
 }
 
 .header {
-    color: #ffffff;
-    font-family: OpenSans-Bold;
-    font-size: 40px;
-    letter-spacing: 1.11px;
-    text-align: center;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: OpenSans-Bold;
+  font-size: 3em !important;
+  letter-spacing: 1.11px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .text {
-    font-family: Roboto-Regular;
-    font-size: 13px;
-    color: #ffffff;
-    letter-spacing: 0.24px;
-    text-align: center;
+  font-family: Roboto-Regular;
+  font-size: 1.3em !important;
+  color: #ffffff;
+  letter-spacing: 0.24px;
+  text-align: center;
 }
 
 @keyframes apmove {
-    0% {
-        transform: translateY(0);
-    }
-    85% {
-        transform: translateY(10px);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  85% {
+    transform: translateY(10px);
+  }
 
-    100% {
-        transform: translateY(10px);
-    }
+  100% {
+    transform: translateY(10px);
+  }
 }
 
 @keyframes apshadow {
-    0% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
 
-    85% {
-        transform: scale(0.75);
-    }
-    100% {
-        transform: scale(0.75);
-    }
+  85% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
 }
 
 @keyframes apstars {
-    from {
-        opacity: 0.3;
-    }
+  from {
+    opacity: 0.3;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 .bobbingUpDown {
-    animation: apmove 0.8s infinite alternate;
-    animation-timing-function: ease-in-out;
+  animation: apmove 0.8s infinite alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .bobbingBigSmall {
-    animation: apshadow 0.8s infinite alternate-reverse;
-    animation-timing-function: ease-in-out;
+  animation: apshadow 0.8s infinite alternate-reverse;
+  animation-timing-function: ease-in-out;
 }
 
 .bobbingStars1 {
-    animation: apstars 0.8s infinite alternate;
+  animation: apstars 0.8s infinite alternate;
 }
 
 .bobbingStars2 {
-    animation: apstars 0.8s infinite alternate-reverse;
+  animation: apstars 0.8s infinite alternate-reverse;
 }
