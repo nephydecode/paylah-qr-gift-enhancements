@@ -1,0 +1,28 @@
+.serialno {
+  font-family: Helvetica;
+  font-size: 16.2px;
+  letter-spacing: -0.39px;
+  text-align: center;
+  opacity: 0.5;
+  background: #3e3e3e;
+  border-radius: 18.23px;
+  display: inline-block;
+  padding: 3px 10px;
+}
+
+.header {
+  color: #ffffff;
+  font-family: OpenSans-Bold;
+  font-size: 40px;
+  letter-spacing: 1.11px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text {
+  font-family: Roboto-Regular;
+  font-size: 13px;
+  color: #ffffff;
+  letter-spacing: 0.24px;
+  text-align: center;
+}

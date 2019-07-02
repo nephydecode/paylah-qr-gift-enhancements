@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="128px" viewBox="0 0 82 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>qrgift/large</title>
+    <desc>Created with Sketch.</desc>
+    <g id="qrgift/large" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#898989" x="0" y="10" width="82" height="74" rx="6"></rect>
+            <g id="paper" transform="translate(5.000000, 0.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="36" height="84"></rect>
+                <rect id="Rectangle-Copy-11" fill="#F2F2F2" x="36" y="0" width="36" height="84"></rect>
+            </g>
+            <g id="envelope-front" transform="translate(0.000000, 70.000000)">
+                <path d="M82,11 L82,27 L82,58 L50,58 L47,58 C43.6862915,58 41,55.3137085 41,52 L41,11 L41,-7.10542736e-15 L82,11 Z" id="Combined-Shape-Copy-2" fill="#AFAFAF" transform="translate(61.500000, 29.000000) scale(-1, 1) translate(-61.500000, -29.000000) "></path>
+                <path d="M41,11 L41,27 L41,58 L9,58 L6,58 C2.6862915,58 4.05812251e-16,55.3137085 0,52 L0,11 L0,-7.10542736e-15 L41,11 Z" id="Combined-Shape-Copy-3" fill="#B9B9B9"></path>
+            </g>
+            <g id="qrsymbol-lg" transform="translate(14.000000, 14.000000)">
+                <rect id="Rectangle-Copy-7" stroke="#FA5A73" stroke-width="4" x="2" y="2" width="20" height="20"></rect>
+                <rect id="Rectangle-Copy-13" stroke="#FA5A73" stroke-width="3" x="10.5" y="10.5" width="3" height="3"></rect>
+                <rect id="Rectangle-Copy-16" stroke="#FA5A73" stroke-width="4" x="2" y="32" width="20" height="20"></rect>
+                <rect id="Rectangle-Copy-15" stroke="#FA5A73" stroke-width="3" x="10.5" y="40.5" width="3" height="3"></rect>
+                <rect id="Rectangle-Copy-8" stroke="#FA5A73" stroke-width="4" x="32" y="2" width="20" height="20"></rect>
+                <rect id="Rectangle-Copy-14" stroke="#FA5A73" stroke-width="3" x="40.5" y="10.5" width="3" height="3"></rect>
+                <rect id="Rectangle" fill="#979797" x="30" y="30" width="8" height="8"></rect>
+                <rect id="Rectangle-Copy-4" fill="#979797" x="38" y="38" width="8" height="8"></rect>
+                <rect id="Rectangle-Copy-5" fill="#979797" x="46" y="46" width="8" height="8"></rect>
+                <rect id="Rectangle-Copy-6" fill="#979797" x="46" y="30" width="8" height="8"></rect>
+                <rect id="Rectangle-Copy-10" fill="#979797" x="30" y="46" width="8" height="8"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

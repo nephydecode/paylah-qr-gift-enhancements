@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="173px" height="95px" viewBox="0 0 173 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>qrgift/large/deco-black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="qrgift/large/deco-black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="deco-black" fill="#B9B9B9">
+            <circle id="Oval" cx="3" cy="49" r="3"></circle>
+            <path d="M24,6 L24,2 C24,0.8954305 24.8954305,2.02906125e-16 26,0 C27.1045695,-2.02906125e-16 28,0.8954305 28,2 L28,6 L32,6 C33.1045695,6 34,6.8954305 34,8 C34,9.1045695 33.1045695,10 32,10 L28,10 L28,14 C28,15.1045695 27.1045695,16 26,16 C24.8954305,16 24,15.1045695 24,14 L24,10 L20,10 C18.8954305,10 18,9.1045695 18,8 C18,6.8954305 18.8954305,6 20,6 L24,6 Z" id="Combined-Shape-Copy-4"></path>
+            <path d="M163,85 L163,81 C163,79.8954305 163.895431,79 165,79 C166.104569,79 167,79.8954305 167,81 L167,85 L171,85 C172.104569,85 173,85.8954305 173,87 C173,88.1045695 172.104569,89 171,89 L167,89 L167,93 C167,94.1045695 166.104569,95 165,95 C163.895431,95 163,94.1045695 163,93 L163,89 L159,89 C157.895431,89 157,88.1045695 157,87 C157,85.8954305 157.895431,85 159,85 L163,85 Z" id="Combined-Shape-Copy-5"></path>
+        </g>
+    </g>
+</svg>
