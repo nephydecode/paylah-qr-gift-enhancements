@@ -11,6 +11,7 @@ class Redemptions extends Component {
   render() {
     return (
       <Container className={"p-4"}>
+        <a name="redemption-options" />
         <Method
           highlighted
           link={"/dey"}

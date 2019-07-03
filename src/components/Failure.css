@@ -1,5 +1,5 @@
-.header {
-  font-family: OpenSans-Bold;
+.redemptionheader {
+  font-family: "Open Sans";
   font-size: 24px;
   color: #2e2e2e;
   letter-spacing: 0.54px;
@@ -7,22 +7,23 @@
 }
 
 .text {
-  font-family: Roboto-Regular;
+  font-family: "Open Sans";
   font-size: 13px;
   color: #6d6d6d;
   letter-spacing: 0.24px;
   text-align: center;
 }
 
-.serialno {
-  font-family: Helvetica;
-  font-size: 16.2px;
-  color: #ffffff;
-  letter-spacing: -0.39px;
-  text-align: center;
-  opacity: 0.5;
-  background: #3e3e3e;
-  border-radius: 18.23px;
-  display: inline-block;
-  padding: 3px 10px;
+.paylahfail {
+  animation: paylahfail 0.5s 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes paylahfail {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }

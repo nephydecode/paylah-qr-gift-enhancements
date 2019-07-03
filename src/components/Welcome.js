@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Redemptions from "./Redemptions";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Welcome.css";
 import decowhite from "../assets/deco-white.svg";
@@ -7,15 +6,13 @@ import decoblack from "../assets/deco-black.svg";
 import shadow from "../assets/shadow.svg";
 import largeqrgift from "../assets/largeqrgift.svg";
 import whitearrow from "../assets/arrow-button.svg";
-import { relative } from "path";
-import BgImage from "./dark.svg";
+import BgImageDark from "./dark.svg";
 
 var BgStyle = {
-  backgroundImage: `url(${BgImage})`,
+  backgroundImage: `url(${BgImageDark})`,
   backgroundRepeat: "no-repeat",
   backgroundPosition: "bottom center",
   backgroundSize: "contain",
-  height: "95vh",
   backgroundColor: "#FA5A74"
 };
 
@@ -25,14 +22,12 @@ class Welcome extends Component {
     return (
       <div
         style={BgStyle}
-        className={"d-flex flex-column justify-content-center"}
+        className={"d-flex flex-column justify-content-center main-screen-size"}
       >
         <Container>
-          <Row className="pt-5">
+          <Row>
             <Col xs={12}>
-              <div className={"serialno"} style={{ fontColor: "#ffffff" }}>
-                22jCoV
-              </div>
+              <div className={"serialno text-white"}>22jCoV</div>
             </Col>
           </Row>
           <Row className="p-4 pt-5">
@@ -66,15 +61,16 @@ class Welcome extends Component {
           </Row>
           <Row className="m-3">
             <Col xs={12}>
-              <h1 className={"header text-white"}>QR Gift</h1>
+              <h5 className={"header text-white"}>QR Gift</h5>
             </Col>
           </Row>
           <Row className="m-3">
             <Col xs={12}>
               <div className={"text text-white"}>
-                You have Received a QR Gift! Choose one of the following methods
-                to redeem your gift.
+                You have received a <b>QR Gift (22jCoV)</b>! <br />
+                Swipe down to redeem
               </div>
+              <div className={"d-block p-1 mt-4"} />
             </Col>
           </Row>
           <Row className="p-4">
@@ -83,10 +79,17 @@ class Welcome extends Component {
         </Container>
 
         <div className={"d-flex justify-content-center"}>
-          <img
-            src={whitearrow}
-            style={{ position: "absolute", bottom: "2em" }}
-          />
+          <a href="#redemption-options">
+            <img
+              src={whitearrow}
+              className={"bobbingArrow"}
+              style={{
+                position: "absolute",
+                marginLeft: "-1em",
+                bottom: "1em"
+              }}
+            />
+          </a>
         </div>
       </div>
     );

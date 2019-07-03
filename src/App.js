@@ -6,6 +6,8 @@ import Redemptions from "./components/Redemptions";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Success from "./components/Success";
 import Failure from "./components/Failure";
+import "typeface-open-sans";
+import "typeface-roboto";
 
 function RedemptionPage() {
   return (
