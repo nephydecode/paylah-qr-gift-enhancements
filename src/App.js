@@ -6,6 +6,7 @@ import Redemptions from "./components/Redemptions";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Success from "./components/Success";
 import Failure from "./components/Failure";
+import Sending from "./components/Sending";
 import "typeface-open-sans";
 import "typeface-roboto";
 
@@ -27,6 +28,7 @@ function App() {
           <Route path={"/"} exact component={RedemptionPage} />
           <Route path="/success" component={Success} />
           <Route path="/failure" component={Failure} />
+          <Route path="/sending" component={Sending} />
         </Switch>
       </BrowserRouter>
     </div>

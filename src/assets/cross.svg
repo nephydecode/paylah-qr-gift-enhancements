@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="9px" viewBox="0 0 8 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>pay/cross</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="pay/cross" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <path d="M1,4.5 L3,4.5" id="Line-2-Copy" stroke="#CE0001" stroke-width="1.5"></path>
+        <path d="M5,4.5 L7,4.5" id="Line-2-Copy-4" stroke="#CE0001" stroke-width="1.5"></path>
+        <path d="M3,2.5 L5,2.5" id="Line-2-Copy-3" stroke="#CE0001" stroke-width="1.5" fill="url(#linearGradient-1)" transform="translate(4.000000, 2.500000) rotate(90.000000) translate(-4.000000, -2.500000) "></path>
+        <path d="M3,6.5 L5,6.5" id="Line-2-Copy-5" stroke="#CE0001" stroke-width="1.5" transform="translate(4.000000, 6.500000) rotate(90.000000) translate(-4.000000, -6.500000) "></path>
+    </g>
+</svg>

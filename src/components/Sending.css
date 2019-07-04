@@ -1,0 +1,21 @@
+.dot {
+  height: 200px;
+  width: 200px;
+  background-color: #fafcfa;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 1em;
+  padding-right: 10em;
+}
+
+.dot2 {
+  height: 100px;
+  width: 100px;
+  background-color: #f2f4f2;
+  opacity: 1;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.toprow {
+}
