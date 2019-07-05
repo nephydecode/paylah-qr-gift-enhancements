@@ -14,7 +14,7 @@ class Sending extends Component {
             <div className={''}>
                 <Container className="">
                     <Row>
-                        <Col xs={12} className={'d-flex flex-column justify-content-center sending-screen-size'}>
+                        <Col xs={12} className={'d-flex flex-column justify-content-center sending-screen-size mw-100'}>
                             <div className={'d-flex flex-row justify-content-center'}>
                                 <div className="dot mt-5" style={{}}>
                                     <div
@@ -37,19 +37,19 @@ class Sending extends Component {
                                     </div>
                                 </div>
                             </div>
-<div className={'pt-3'}><p className={'text-center'}>Help Lah!</p></div>
+                            <div className={'pt-3'}><p className={'text-center'}>Help Lah!</p></div>
 
                             <img src={rcloud} className="mt-5 base-animation base-animation-delay-11" style={{ position: 'absolute' , top: '10%'}} />
-                            <img src={lcloud} style={{ position: 'absolute', top: '30%', zIndex: 999 }} className="base-animation base-animation-delay-5" />
-                            <img src={cross} style={{ position: 'absolute', top: '40%', zIndex: 999 }} className={'base-animation base-animation-delay-6'} />
                             <img src={cross} style={{ position: 'absolute',top: '44%', zIndex: 999 }} className={'base-animation base-animation-delay-1'} />
-                            <img src={cross} style={{ position: 'absolute',top: '60%', zIndex: 999 }} className={'base-animation base-animation-delay-7'} />
                             <img src={oval} style={{ position: 'absolute', top: '65%',zIndex: 999 }} className={'base-animation base-animation-delay-2'} />
-                            <img src={oval} style={{ position: 'absolute', top: '42%', zIndex: 999 }} className={'base-animation base-animation-delay-3'} />
                             <img src={oval} style={{ position: 'absolute', top: '58%', zIndex: 999 }} className={'base-animation base-animation-delay-8'}/>
-                            <img src={oval} style={{ position: 'absolute', top: '68%', zIndex: 999 }} className={'base-animation base-animation-delay-9'}/>
                             <img src={rcloud} className="mt-5" style={{ position: 'absolute', top: '60%' }} className={'base-animation base-animation-delay-10'}/>
-                            <img src={lcloud} style={{ position: 'absolute', top: '70%', zIndex: 999 }} className={'base-animation base-animation-delay-4'}/>
+                            <img src={lcloud} style={{ position: 'absolute', top: '70%', zIndex: 999 }} className={'base-animation base-animation-delay-4 d-none d-md-block'}/>
+                            <img src={lcloud} style={{ position: 'absolute', top: '30%', zIndex: 999 }} className="base-animation base-animation-delay-5 d-none d-md-block" />
+                            <img src={cross} style={{ position: 'absolute', top: '40%', zIndex: 999 }} className={'base-animation base-animation-delay-6 d-none d-md-block'} />
+                            <img src={cross} style={{ position: 'absolute',top: '60%', zIndex: 999 }} className={'base-animation base-animation-delay-7 d-none d-md-block'} />
+                            <img src={oval} style={{ position: 'absolute', top: '42%', zIndex: 999 }} className={'base-animation base-animation-delay-3 d-none d-md-block'} />
+                            <img src={oval} style={{ position: 'absolute', top: '68%', zIndex: 999 }} className={'base-animation base-animation-delay-9 d-none d-md-block'}/>
                         </Col>
                     </Row>
                 </Container>
