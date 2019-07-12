@@ -1,142 +1,169 @@
+.sendingtext {
+  font-family: "Open Sans";
+}
+
 body {
-    width: 100vw;
-    overflow-x: hidden;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .sending-screen-size {
-    height: 80vh;
+  height: 80vh;
 }
 
 @media only screen and (max-width: 480px) {
-    .sending-screen-size {
-        height: 50vh;
-    }
+  .sending-screen-size {
+    height: 50vh;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .sending-screen-size {
-        height: 84vh;
-    }
+  .sending-screen-size {
+    height: 84vh;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-    .sending-screen-size {
-        height: 84vh;
-    }
+  .sending-screen-size {
+    height: 84vh;
+  }
 }
 
 .dot {
-    height: 200px;
-    width: 200px;
-    background-color: #fafcfa;
-    border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: #fafcfa;
+  border-radius: 50%;
+  animation: expand1 1s infinite alternate;
 }
 
 .dot2 {
-    height: 100px;
+  height: 100px;
+  width: 100px;
+  background-color: #f2f4f2;
+  opacity: 1;
+  border-radius: 50%;
+  animation: expand2 1.5s infinite alternate;
+}
+
+@keyframes expand1 {
+  from {
+    width: 200px;
+    height: 200px;
+  }
+  to {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@keyframes expand2 {
+  from {
     width: 100px;
-    background-color: #f2f4f2;
-    opacity: 1;
-    border-radius: 50%;
-    display: inline-block;
+    height: 100px;
+  }
+  to {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 .toprow {
 }
 
 @keyframes assetshiftrtl {
-    0% {
-        transform: translateX(150vw);
-    }
+  0% {
+    transform: translateX(150vw);
+  }
 
-    100% {
-        transform: translateX(0);
-    }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes assetbobbingUpDownPlane {
-    0% {
-        transform: translateY(0px);
-    }
-    25% {
-        transform: translateY(-7px);
-    }
-    50% {
-        transform: translateY(5px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-7px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .base-animation {
-    position: absolute;
-    left: -50% !important;
+  position: absolute;
+  left: -50% !important;
 }
 
 @media only screen and (min-width: 540px) {
-    .plane-animation {
-        animation: assetbobbingUpDownPlane 1s infinite;
-        animation-timing-function: ease-in-out;
-    }
+  .plane-animation {
+    animation: assetbobbingUpDownPlane 1s infinite;
+    animation-timing-function: ease-in-out;
+  }
 
-    .base-animation {
-        animation: assetshiftrtl 3s infinite;
-        animation-timing-function: linear;
-    }
+  .base-animation {
+    animation: assetshiftrtl 3s infinite;
+    animation-timing-function: linear;
+  }
 }
 
 @media only screen and (max-width: 540px) {
-    .plane-animation {
-        animation: assetbobbingUpDownPlane 1s infinite;
-        animation-timing-function: ease-in-out;
-    }
+  .plane-animation {
+    animation: assetbobbingUpDownPlane 1s infinite;
+    animation-timing-function: ease-in-out;
+  }
 
-    .base-animation {
-        animation: assetshiftrtl 1s infinite;
-        animation-timing-function: linear;
-    }
+  .base-animation {
+    animation: assetshiftrtl 1s infinite;
+    animation-timing-function: linear;
+  }
 }
 
 .base-animation-delay-1 {
-    animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .base-animation-delay-2 {
-    animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .base-animation-delay-3 {
-    animation-delay: 1.6s;
+  animation-delay: 1.6s;
 }
 .base-animation-delay-4 {
-    animation-delay: 1.9s;
+  animation-delay: 1.9s;
 }
 
 .base-animation-delay-5 {
-    animation-delay: 2.1s;
+  animation-delay: 2.1s;
 }
 
 .base-animation-delay-6 {
-    animation-delay: 2.3s;
+  animation-delay: 2.3s;
 }
 
 .base-animation-delay-7 {
-    animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 
 .base-animation-delay-8 {
-    animation-delay: 2.6s;
+  animation-delay: 2.6s;
 }
 
 .base-animation-delay-9 {
-    animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 .base-animation-delay-10 {
-    animation-delay: 3.1s;
+  animation-delay: 3.1s;
 }
 
 .base-animation-delay-11 {
-    animation-delay: 3.3s;
+  animation-delay: 3.3s;
 }
