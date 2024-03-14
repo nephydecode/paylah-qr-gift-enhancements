@@ -28,7 +28,7 @@ class Method extends Component {
                   className={
                     "d-flex flex-column justify-content-center method-app-icon"
                   }
-                  style={{ background: this.props.methodbgcolor }}
+                  style={{ background: this.props.methodbgcolor, padding: 20 }}
                 >
                   <img src={this.props.image} className={""} />
                 </div>
